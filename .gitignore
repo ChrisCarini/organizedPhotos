@@ -1,0 +1,5 @@
+.htpasswd
+addToMySQL.sh
+includes/functions.inc.php
+test/
+~DAISY/
