@@ -15,10 +15,10 @@
 	IndexOrderDefault Ascending Name
 
 	# SPECIFY HEADER FILE
-	HeaderName /organizedPhotos/header.php
+	HeaderName /header.php
  
 	# SPECIFY FOOTER FILE
-	ReadmeName /organizedPhotos/footer.php
+	ReadmeName /footer.php
 
 	# IGNORE THESE FILES
 	IndexIgnore header*.php footer.php getEXIF.php photoDecision.php photoDecision2.php hori_large.png vert_large.png jaxMe.js test scrollable-buttons.css scrollable-horizontal.css *.sh *.NEF *.gif ~UNorganized folderTemplates includes import.sql makeGIFfromJPGMaster.sh.lockfile makeGIFfromJPG.sh.lockfile importNewPhotosToMySQL.sql

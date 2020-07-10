@@ -41,10 +41,10 @@ for i in $(ls | grep JPG);  do j=`echo $i | cut -d . -f 1`; j=$j"_400px.gif"; co
 		};
 		echo "<title>".$str."</title>";
 		?>
-	<script src="https://chriscarini.com/organizedPhotos/includes/jaxMe.js" type="text/javascript"></script>
+	<script src="/includes/jaxMe.js" type="text/javascript"></script>
 	<!-- include the Tools -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-	<script src="https://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+	<script src="/includes/jquery.tools.min.js"></script>
 		<script type="text/javascript">
 		<?php //Show my photos! ?>
 		var enabled = false;
@@ -258,8 +258,8 @@ for i in $(ls | grep JPG);  do j=`echo $i | cut -d . -f 1`; j=$j"_400px.gif"; co
 			}
 		});
 		</script>
-		<link rel="stylesheet" type="text/css" href="https://chriscarini.com/organizedPhotos/scrollable-horizontal.css">
-		<link rel="stylesheet" type="text/css" href="https://chriscarini.com/organizedPhotos/scrollable-buttons.css">
+		<link rel="stylesheet" type="text/css" href="/scrollable-horizontal.css">
+		<link rel="stylesheet" type="text/css" href="/scrollable-buttons.css">
 		<style type="text/css">
 		#wrapper {
 			/* centered */
@@ -304,7 +304,7 @@ align:center;margin:0 auto;		}
 		}
 		/* prev, next, prevPage and nextPage buttons */
 		a.cinstallbrowse {
-			background:url(https://chriscarini.com/organizedPhotos/vert_large.png) no-repeat;
+			background:url(/vert_large.png) no-repeat;
 			display:block;
 			width:30px;
 			height:30px;
@@ -316,7 +316,7 @@ align:center;margin:0 auto;		}
 		
 		/* up and down */
 		a.cinstallup, a.cinstalldown  {
-			background:url(https://chriscarini.com/organizedPhotos/vert_large.png) no-repeat;
+			background:url(/vert_large.png) no-repeat;
 			float: none;
 			margin: 0px 46px;
 		}
